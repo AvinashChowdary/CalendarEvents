@@ -4,12 +4,11 @@ This document explains how to use the calendar service component
 Classes to be Copied :
 Copy the following classes from component folder
 
- * `Attendee`
- * `CalendarEvent`
- * `CalendarService`
+* `Attendee`
+* `CalendarEvent`
+* `CalendarService`
 
- Note : Current classes are in the package com.pcs.calendarservice, these can either be copied to specified package or
- change them as per requirement.
+Note : Current classes are in the package com.pcs.calendarservice, these can either be copied to specified package or change them as per requirement.
 
 Attendee : is the POJO for Attendee of an Event
 
@@ -18,18 +17,16 @@ CalendarEvent : is the POJO for CalendarEvent
 CalendarService : is used for obtaining the below by passing
 context as parameter to reasCalendar method
 
- * Add a new Calendar Event
- * Delete a particular Event
- * Edit a particular Event
- * Getting list of Events from all the available Calendars
- * Getting list of Attendees for a particular Event
- * Adding list of Attendees for a particular Event
+* Add a new Calendar Event
+* Delete a particular Event
+* Edit a particular Event
+* Getting list of Events from all the available Calendars
+* Getting list of Attendees for a particular Event
+* Adding list of Attendees for a particular Event
 
 First we need to create an object for the class CalendarService as
 
 `CalendarService calService = new CalendarService(this);`
-
-  and then...
 
 1) Add a new Calendar Event by passing title, start time, end time and description to `addEvent(...)`
 
