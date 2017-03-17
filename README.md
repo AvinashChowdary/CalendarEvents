@@ -31,6 +31,7 @@ First we need to create an object for the class CalendarService as
 1) Add a new Calendar Event by passing title, start time, end time and description to `addEvent(...)`
 
 Syntax  : `addEvent(String title, long startTime, long endTime, String desc)`
+
 returns : `eventId` of type `long`
 
 2) Delete a particular Event by passing eventId to `deleteEvent(...)`
